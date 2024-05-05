@@ -1,8 +1,6 @@
 <template>
-      <div class="w-screen h-screen flex">
-
-        <!-- Side Bar -->
-        <div class="w-[300px] h-full bg-gray-800 text-white">
+    <!-- Side Bar -->
+    <div class="w-[300px] h-full bg-gray-800 text-white">
       <div class="h-[50px] bg-gray-900 flex justify-start items-center">
         <div class="px-[20px]">
           <h3 class="font-bold text-xl">Admin Dashboard</h3>
@@ -47,8 +45,7 @@
         </div>
       </div>
     </div>
-      </div>
 </template>
 <script setup>
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 </script>
